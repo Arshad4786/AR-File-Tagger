@@ -4,6 +4,10 @@
 
 ---
 
+## 🎥 Demo Video
+
+[Watch on YouTube](https://www.youtube.com/watch?v=RCS6WMrWcZo)
+
 ## ✨ Features
 
 * **📸 Image Capture** – Capture 2D images (photos, documents, object surfaces).
