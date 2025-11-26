@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme that inherits from MaterialComponents and has no Action Bar. -->
+    <style name="Theme.ARFIleTagger" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <!-- Custom Dialog Theme for TagInputDialogFragment -->
+    <!-- Inherit from a standard Material Components Dialog theme. -->
+    <style name="Theme.ARFIleTagger.Dialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- Customize dialog specific attributes here if needed -->
+        <!-- Reference the drawable from res/drawable/ directory -->
+        <item name="android:windowBackground">@drawable/rounded_dialog_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- REMOVED: Duplicate definition for rounded_dialog_background drawable -->
+    <!-- This drawable should ONLY be defined in res/drawable/rounded_dialog_background.xml -->
+
+</resources>

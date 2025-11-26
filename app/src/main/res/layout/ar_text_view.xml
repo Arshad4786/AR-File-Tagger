@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:background="@drawable/rounded_corner_text_bg"
+    android:gravity="center_horizontal"
+    android:minWidth="85dp"
+    android:minHeight="35dp">
+
+    <!-- TextView for the Name field -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:text="Filename: "
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <!-- TextView for the Use field -->
+    <TextView
+        android:id="@+id/textViewUse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp"
+        android:text="Path: "
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:maxLines="2"/>
+
+    <!-- TextView for the Time Setter field -->
+    <TextView
+        android:id="@+id/textViewTimeSetter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp"
+        android:text="Deadline: "
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:maxLines="2"/>
+
+</LinearLayout>

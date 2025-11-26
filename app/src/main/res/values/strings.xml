@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ARFIleTagger</string>
+    <string name="Start">Bismillah Hir Rahman Nir Rahim</string>
+    <string name="move_camera_to_find_the_target_image">Move camera to find the target image</string>
+    <string name="capture_image_button_description">Capture image for AR tracking</string>
+    <string name="instructions_capture_and_scan">Tap the camera button to capture an image, then scan it in AR.</string>
+    <string name="manage_tags_button_description">Manage Saved Tags</string>
+    <string name="instructions_app_use">Tap camera to add new tags, or edit button to manage existing ones.</string>
+</resources>

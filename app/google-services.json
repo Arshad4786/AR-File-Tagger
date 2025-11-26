@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "897490139503",
+    "project_id": "arfiletagger",
+    "storage_bucket": "arfiletagger.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897490139503:android:0ca31c2276c41fffae509a",
+        "android_client_info": {
+          "package_name": "com.example.arfiletagger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "enter_your_key"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
